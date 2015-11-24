@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_msg"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:background="@drawable/sel_list">
+
+    <ImageView
+        android:id="@+id/img_market"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/ic_no_img"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"/>
+    <LinearLayout
+        android:layout_marginLeft="18dp"
+        android:layout_toLeftOf="@+id/txt_send_date"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/img_market"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_name_peer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:text="StarBucks"
+            android:textColor="@color/d_gray_n"/>
+        <TextView
+            android:id="@+id/txt_msg"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="나 : 저도 회신 드렸어용...."
+            android:singleLine="true"
+            android:textColor="@color/l_gray_s"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_send_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/l_gray_n"
+        android:layout_alignParentRight="true"
+        android:text="12월 26일"/>
+</RelativeLayout>

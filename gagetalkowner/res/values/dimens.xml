@@ -1,0 +1,11 @@
+<resources>
+    <!-- dashboard size -->
+    <dimen name="dashboard_width">270dp</dimen>
+    <dimen name="dashboard_line_margin">15dp</dimen>
+    <dimen name="line_height">0.3dp</dimen>
+
+
+    <!-- popup window width -->
+    <dimen name="category_popup_width">160dp</dimen>
+    <dimen name="category_popup_height">300dp</dimen>
+</resources>

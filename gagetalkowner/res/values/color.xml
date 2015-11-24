@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- definition for drawable -->
+
+    <!-- definition for color selector -->
+    <drawable name="btn_ok_n">#393939</drawable>
+    <drawable name="btn_ok_s">#252525</drawable>
+    <drawable name="btn_cancel_n">#595959</drawable>
+    <drawable name="btn_cancel_s">#7d7d7d</drawable>
+    <drawable name="btn_yellow_n">#ffb400</drawable>
+    <drawable name="btn_yellow_s">#ff9600</drawable>
+    <drawable name="lin_tab_s">#434343</drawable>
+    <drawable name="lin_tab_n">#393939</drawable>
+    <color name="btn_yellow_n">#ffb400</color>
+    <color name="btn_yellow_s">#ff9600</color>
+    <color name="txt_1_clicked_n">#ffffff</color>
+    <color name="txt_1_clicked_s">#ffb400</color>
+    <color name="txt_2_clicked_n">#333333</color>
+    <color name="txt_2_clicked_s">#696969</color>
+    <color name="logged_in_color">#ffffff</color>
+    <color name="logged_out_color">#cccccc</color>
+
+    <!-- definition for color -->
+    <color name="title_layout">#393939</color>
+    <color name="body_layout">#eeeeee</color>
+    <color name="sub_title_layout">#434343</color>
+    <color name="sub_body_layout">#dcdcdc</color>
+    <color name="header">#d2cbaf</color>
+    <color name="title_txt">#ffffff</color>
+    <color name="body_txt">#000000</color>
+    <color name="view_line">#cccccc</color>
+    <color name="txt_search">#dcdcdc</color>
+    <color name="grid_touch_s">#eeeeee</color>
+</resources>

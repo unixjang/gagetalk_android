@@ -1,0 +1,7 @@
+<resources>
+    <!-- MarketViewMoreActivity -->
+    <dimen name="market_label_max_width">170dp</dimen>
+    <dimen name="market_label_text_size">12sp</dimen>
+    <dimen name="market_text_size">16sp</dimen>
+
+</resources>

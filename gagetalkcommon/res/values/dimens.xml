@@ -1,0 +1,20 @@
+<resources>
+    <!-- dashboard size -->
+    <dimen name="dashboard_width">270dp</dimen>
+    <dimen name="dashboard_line_margin">15dp</dimen>
+    <dimen name="line_height">0.3dp</dimen>
+
+    <!-- signup activity size -->
+    <dimen name="signup_icon_size">25dp</dimen>
+    <dimen name="signup_icon_paddingLeft">48dp</dimen>
+    <dimen name="signup_edit_textSize">16sp</dimen>
+    <dimen name="signup_edit_width">280dp</dimen>
+    <dimen name="signup_edit_height">42dp</dimen>
+    <dimen name="signup_edit_marginTop">20dp</dimen>
+    <dimen name="signup_icon_marginTop">8dp</dimen>
+    <dimen name="signup_icon_marginLeft">10dp</dimen>
+
+    <!-- popup window width -->
+    <dimen name="category_popup_width">160dp</dimen>
+    <dimen name="category_popup_height">300dp</dimen>
+</resources>

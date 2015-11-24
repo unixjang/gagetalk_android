@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gagetalk.gagetalkcustomer">
+
+    <uses-sdk
+        android:targetSdkVersion="22"
+        android:minSdkVersion="15"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".activities.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity android:name=".activities.SignupActivity"/>
+        <activity android:name=".activities.MarketViewMoreActivity" />
+        <activity android:name=".activities.ChatActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.AccountUpdateActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <!-- DialogActivity -->
+        <activity android:name=".activities_dialog.LoginDialogActivity"
+            android:theme="@style/MyDialogTheme"/>
+        <activity android:name=".activities_dialog.ProfileImgDialogActivity"
+            android:theme="@style/MyDialogTheme"/>
+        <activity android:name=".activities_dialog.SetNameDialogActivity"
+            android:theme="@style/MyDialogTheme"/>
+        <activity android:name=".activities_dialog.ChatDialogActivity"
+            android:theme="@style/ChatDialogTheme"/>
+        <activity android:name=".activities_dialog.ChatLockScreenActivity" />
+
+        <!-- service -->
+        <service android:name=".service.ChatService"/>
+        <receiver android:name=".receiver.ChatReceiver">
+            <intent-filter>
+                <action android:name="com.gagetalk.gagetalkcustomer.message_my"></action>
+                <action android:name="com.gagetalk.gagetalkcustomer.message_peers"></action>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.BootCompletedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.NetworkChangedReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.ChatReadReceiver">
+            <intent-filter>
+                <action android:name="com.gagetalk.gagetalkcustomer.message_read"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.ChatUnreadReceiver">
+            <intent-filter>
+                <action android:name="com.gagetalk.gagetalkcustomer.message_unread_request"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

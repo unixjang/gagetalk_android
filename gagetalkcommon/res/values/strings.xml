@@ -1,0 +1,136 @@
+<resources>
+    <string name="version_label">버전</string>
+    <string name="version">v 1.0</string>
+    <string name="master_email">master@gagetalk.com</string>
+
+    <string name="login_request">로그인 해주세요.</string>
+    <string name="login">로그인</string>
+    <string name="login_announce">로그인 되었습니다.</string>
+    <string name="logout">로그아웃</string>
+    <string name="signup">회원가입</string>
+    <string name="home">홈</string>
+    <string name="my_account">나의 계정</string>
+    <string name="help">도움말</string>
+    <string name="setting">설정</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="ok">확인</string>
+    <string name="back">돌아가기</string>
+    <string name="chat">채팅</string>
+    <string name="cancel">취소</string>
+    <string name="no_name">이름 없음</string>
+    <string name="no_email">로그인 해주세요.</string>
+
+    <!-- login / logout status string -->
+    <string name="logout_success">로그아웃 되었습니다.</string>
+    <string name="login_success">로그인 되었습니다.</string>
+    <string name="logout_ask">로그아웃 하시겠습니까?</string>
+    <string name="id">아이디</string>
+    <string name="email">이메일</string>
+    <string name="name">이름</string>
+    <string name="phone">전화번호</string>
+    <string name="password">암호</string>
+    <string name="description">자기 소개</string>
+    <string name="password_ok">암호 확인</string>
+    <string name="login_failed">일치하는 로그인 정보가 없습니다.\n다시 시도해주세요</string>
+    <string name="missing_req_param">필요한 요청이 들어오지 않았습니다.\n확인 후 다시 시도해주세요.</string>
+    <string name="plz_type_id_password">아이디와 비밀번호를 입력해주세요.</string>
+    <string name="signup_success_plz_login">회원가입이 완료되었습니다.\n로그인 해주세요.</string>
+    <string name="signup_id_exist">이미 가입된 아이디입니다.\n다른 아이디로 시도해주세요.</string>
+    <string name="plz_write_password">암호를 입력해주세요.</string>
+    <string name="plz_check_password">암호를 확인해주세요.</string>
+    <string name="plz_write_customer_info">회원 정보를 입력해주세요.</string>
+    <string name="id_isnt_alphanumeric">아이디는 알파벳과 숫자 조합이어야 합니다.</string>
+    <string name="is_not_validate_email">올바른 이메일 주소가 아닙니다.</string>
+    <string name="pw_pwok_not_same">암호와 암호확인이 일치하지 않습니다</string>
+    <string name="write_name_in_hangul">이름은 한글로 입력해야 합니다</string>
+    <string name="phone_number_is_not_correct">올바른 전화번호가 아닙니다</string>
+    <string name="failed_getting_account_info">계정 정보를 불러오는데 실패했습니다.\n다시 시도해주세요.</string>
+    <string name="failed_update_account_info">계정 정보를 수정하는데 실패했습니다.\n다시 시도해주세요.</string>
+    <string name="failed_signup_data">회원가입 정보가 올바르지 않습니다.\n다시 시도해주세요.</string>
+    <string name="failed_signup">회원가입에 실패하였습니다.\n다시 시도해주세요.</string>
+
+    <string name="network_error">네트워크 상태가 월활하지 않습니다.\n네트워크를 확인하고 다시 시도해주세요.</string>
+    <string name="server_error">서버가 점검중입니다.\n나중에 다시 시도해주세요.</string>
+
+    <string-array name="category">
+        <item>전체</item>
+        <item>의류</item>
+        <item>음식점</item>
+        <item>미용실</item>
+        <item>병원/약국</item>
+        <item>화장품</item>
+        <item>노래방</item>
+        <item>컴퓨터</item>
+        <item>커피</item>
+        <item>술</item>
+        <item>전자제품</item>
+    </string-array>
+
+    <!-- AccountFragment String Array -->
+    <string-array name="array_account">
+        <item>계정</item>
+        <item>암호</item>
+        <item>이름</item>
+        <item>전화번호</item>
+        <item>이메일</item>
+        <item>프로필 사진</item>
+        <item>자기 소개</item>
+        <item>가입일</item>
+        <item>마지막 로그인</item>
+    </string-array>
+    <!-- HelpFragment String Array : HAS MORE ARRAY -->
+    <string-array name="array_help">
+        <item>이용 안내</item>
+        <item>자주 묻는 질문</item>
+        <item>연락하기</item>
+        <item>About GageTalk</item>
+    </string-array>
+    <string-array name="array_help_more">
+        <item></item>
+        <item></item>
+        <item>@string/master_email</item>
+        <item></item>
+    </string-array>
+    <!-- SettingFragment String Array : HAS MORE ARRAY -->
+    <string-array name="array_setting">
+        <item>메시지 관리</item>
+        <item>알림 설정</item>
+        <item>버전 정보</item>
+    </string-array>
+    <string-array name="array_setting_more">
+        <item></item>
+        <item></item>
+        <item>@string/version</item>
+    </string-array>
+
+    <string name="profile_img">프로필 이미지</string>
+    <string name="profile_name">프로필 이름</string>
+    <string name="img_update">이미지 변경</string>
+    <string name="name_update">이름 변경</string>
+    <string name="change">변경</string>
+    <string name="update">수정</string>
+    <string name="update_do">수정하기</string>
+    <string name="plz_change_pic_in_main">프로필 사진은 메인 화면에서\n수정할 수 있습니다.</string>
+    <string name="error_server_request">서버 요청에 실패하였습니다.\n다시 시도해주세요.</string>
+    <string name="send">전송</string>
+    <string name="search_market_hint">상점 검색</string>
+    <string name="search_chat_hint">대화 검색</string>
+
+    <string name="month">월</string>
+    <string name="day">일</string>
+    <string name="hello">안녕하세요</string>
+    <string name="nim">님</string>
+    <string name="upload_image_success">프로필 이미지가 변경되었습니다.</string>
+
+    <string name="plz_select_img">이미지를 선택해주세요.</string>
+
+    <!-- server response string -->
+    <string name="response_no_data">일치하는 회원정보가 없습니다.\n잠시 후 다시 시도해주세요.</string>
+    <string name="response_not_logged_in">로그아웃 되었습니다.\n로그인 후 다시 시도해주세요.</string>
+
+    <!-- owner string -->
+    <string name="signup_owner_exist">이미 가입된 상점명입니다.\n다른 상점명으로 시도해주세요.</string>
+    <string name="plz_fill_edit_text">모든 정보를 입력해주세요.</string>
+    <string name="plz_pick_image">상점 이미지를 선택해주세요.</string>
+</resources>

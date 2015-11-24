@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_market"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/sel_grid_back">
+    <ImageView
+        android:id="@+id/img_market"
+        android:layout_width="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="65dp"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/txt_name_peer"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img_market"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Market Name"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:textColor="@color/txt_2_clicked_s"/>
+    <TextView
+        android:id="@+id/txt_market_category"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_name_peer"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:textColor="@color/txt_2_clicked_n"/>
+</RelativeLayout>

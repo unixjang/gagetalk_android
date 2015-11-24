@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">가게톡 (사장님)</string>
+
+    <string name="login_request">로그인 해주세요.</string>
+    <string name="login">로그인</string>
+    <string name="login_announce">로그인 되었습니다.</string>
+    <string name="logout">로그아웃</string>
+    <string name="signup">회원가입</string>
+    <string name="home">홈</string>
+    <string name="my_account">나의 계정</string>
+    <string name="help">도움말</string>
+    <string name="setting">설정</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <!-- login / logout status string -->
+    <string name="logout_success">로그아웃 되었습니다.</string>
+    <string name="login_success">로그인 되었습니다.</string>
+    <string name="logout_ask">로그아웃 하시겠습니까?</string>
+    <string name="market_name">상점명</string>
+    <string name="password">암호</string>
+    <string name="password_ok">암호 확인</string>
+    <!-- signup components strings -->
+    <string name="tel">전화번호</string>
+    <string name="phone">폰번호</string>
+    <string name="img">이미지</string>
+    <string name="email">이메일</string>
+    <string name="address">주소</string>
+    <string name="category">카테고리</string>
+    <string name="homepage">홈페이지</string>
+    <string name="description">설명</string>
+
+    <!-- 전체가 빠짐 -->
+    <string-array name="category">
+        <item>의류</item>
+        <item>음식점</item>
+        <item>미용실</item>
+        <item>병원/약국</item>
+        <item>화장품</item>
+        <item>노래방</item>
+        <item>컴퓨터</item>
+        <item>커피</item>
+        <item>술</item>
+        <item>전자제품</item>
+    </string-array>
+</resources>
